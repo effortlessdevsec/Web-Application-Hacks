@@ -11,5 +11,12 @@ A JSON Web Token (JWT) is an open standard (RFC 7519) that used for securely tra
 This information can be verified and trusted because it is digitally signed.
 JWTs can be signed using a secret or a public/private key pair
 
- ### JSON Web Token Structure:
 ````
+### JSON Web Token Structure:
+
+```
+Json Web Token consist of :
+   Header
+   Payload
+   Signature
+```
