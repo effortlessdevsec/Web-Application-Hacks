@@ -42,4 +42,8 @@ Base64(Header).Base64(payload).Base64(Signature)
 
 Signature = sign (Base64(Header).Base64(payload),key)
 
+For Example: 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiZWZmb3J0bGVzc2RldnNlYyJ9.q1gLIkSPBFAKPxe_Bj_Lhmwjsxjxuu0-mX-E9XgeYnA
+             (Header)                      (Payload)                           signature
+
 ```
