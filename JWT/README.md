@@ -48,4 +48,4 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiZWZmb3J0bGVzc2RldnNlYyJ9.q1gLIk
 
 ```
 ##
-!(https://github.com/effortlessdevsec/Web-Application-Hacks/blob/master/Images/jwt.png)
+![JWT ](https://github.com/effortlessdevsec/Web-Application-Hacks/blob/master/Images/jwt.png)
