@@ -19,4 +19,14 @@ Json Web Token consist of :
    Header
    Payload
    Signature
+  
+  ```
+  Header : - In this part algorithm is defined . which alogorithm  is using to generate the token like:
+  
+  {
+  "alg": "RS256",
+  "typ": "JWT"
+}
+  
+    
 ```
