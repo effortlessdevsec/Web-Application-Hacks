@@ -27,6 +27,12 @@ Header : - In this part algorithm is defined . which alogorithm  is using to gen
    "alg": "RS256",
    "typ": "JWT"
 }
+
+Payload : - User information that is anything like username , email etc.
+
+{ "user": "effortlessdevsec"
+
+}
   
-    
+Signature: -  Signature is an random string that is created using header payload and secret    
 ```
