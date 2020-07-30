@@ -34,5 +34,12 @@ Payload : - User information that is anything like username , email etc.
 
 }
   
-Signature: -  Signature is an random string that is created using header payload and secret    
+Signature: -  Signature is an random string that is created using header payload and secret   
+
+JWT follow the following pattern:
+
+Base64(Header).Base64(payload).Base64(Signature)
+
+Signature = sign (Base64(Header).Base64(payload),key)
+
 ```
