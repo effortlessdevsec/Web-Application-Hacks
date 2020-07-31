@@ -67,5 +67,8 @@ no any signature required .
 
 Nowdays None algorithm is disbaled  by default , developer use none algorithm for debugging purpose, if developer forget to disable None algorithm .
 then  the token not required  signature any more:
+
+---------------------------------------------STEPS TO CHECK ---------------------------------------------------------------------
+
 ```
-#### Steps to check:
+
