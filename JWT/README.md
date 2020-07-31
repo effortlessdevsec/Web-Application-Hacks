@@ -54,10 +54,10 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiZWZmb3J0bGVzc2RldnNlYyJ9.q1gLIk
 
 Multiple signature methods can be used to ensure the integrity of JWT:
 
-      RSA based
+      RSA based  -- Private key for sign and public key for verify token
        Elliptic curves
-        HMAC
-         None
+        HMAC   --  Same Secret key is used to sign and verify token
+        None    --  No signature required
 ```
 ##
 ![JWT ](https://github.com/effortlessdevsec/Web-Application-Hacks/blob/master/Images/jwt.png)
@@ -83,3 +83,10 @@ then  the token not required  signature any more:
 
 ### HMAC-V
 
+```
+   If application  uses RSA algorithm and also HMAC supported then an attacker can bypass the Signature verfication and can proceed their attack:
+   
+   LETS DIG INTO THIS:
+   
+
+```
