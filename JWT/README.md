@@ -105,6 +105,11 @@ then  the token not required  signature any more:
   ~The application will verify the signature with the public key but since you are forcing the application to use HMAC, it will actually verify the signature with    HMAC(public_key, data).
   
   -----------------------------------------------------------Hack Steps --------------------------------------------------------------------------
+                     1. decode the JWT
+                     2. change the algorithm used for the signature
+                     3. compute the new signature with public key
+                     4. verify the token
+                     
 
    
    
