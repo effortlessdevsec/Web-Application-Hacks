@@ -5,6 +5,7 @@
 * [Using None Algorithm](#None)
 * [HMAC Algorithm Attack](#HMAC-V)
 * [Weak Secret Key](#Secret-w)
+* [Lack Of Verification](#Verify)
 * [Directory Traversal in Kid](#kid-1)
 * [Sql Injection in Kid](#kid-2)
 * [JWKS Spofing](#JWK-1)
