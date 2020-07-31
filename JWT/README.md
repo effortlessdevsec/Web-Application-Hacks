@@ -1,4 +1,3 @@
-
 * [What is JWT](#JWT)
 
 ## .JWT Vulnerabilities
@@ -6,8 +5,6 @@
 * [Using None Algorithm](#None)
 * [HMAC Algorithm Attack](#HMAC-V)
 * [Weak Secret Key](#Secret-w)
-
-
 
 
 
@@ -115,3 +112,13 @@ then  the token not required  signature any more:
 ```
 
 ### Secret-w
+
+```
+The issue here is very simple. The integrity of the token relies on the strength of the secret used to sign the token.
+ If an attacker can find the secret, she/he will be able to forge her own malicious token
+ 
+ Hashcat is powerful tool for bruteforcing the secret:
+ 
+ USAGES : hashcat -m 16500    target.txt dict.txt
+ 
+```
