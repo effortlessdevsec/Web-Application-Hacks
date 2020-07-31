@@ -65,4 +65,9 @@ Multiple signature methods can be used to ensure the integrity of JWT:
 Like SSL (with the NULL Cipher), JWT support a None algorithm for signature. This was probably introduced to debug applications.In None algorithm
 no any signature required .
 
+Nowdays None algorithm is disbaled  by default , developer use none algorithm for debugging purpose, if developer forget to disable None algorithm .then  the token not required
+
+signature any more:
+
+
 ```
