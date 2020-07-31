@@ -62,4 +62,7 @@ Multiple signature methods can be used to ensure the integrity of JWT:
 
 ### None
 ```
+Like SSL (with the NULL Cipher), JWT support a None algorithm for signature. This was probably introduced to debug applications.In None algorithm
+no any signature required .
+
 ```
