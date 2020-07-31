@@ -119,6 +119,6 @@ The issue here is very simple. The integrity of the token relies on the strength
  
  Hashcat is powerful tool for bruteforcing the secret:
  
- USAGES : hashcat -m 16500    target.txt dict.txt
+ USAGES : hashcat  -a 3 -m 16500 -o abc.txt   target.txt  dict.txt
  
 ```
