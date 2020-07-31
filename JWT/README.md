@@ -86,7 +86,18 @@ then  the token not required  signature any more:
 ```
    If application  uses RSA algorithm and also HMAC supported then an attacker can bypass the Signature verfication and can proceed their attack:
    
-   LETS DIG INTO THIS:
+   LETS DIG INTO THIS: lets process all scenerio :
+   
+   you know 
+   : RSA based algorithm uses private key for sign the token and public key for verify the token
+   : Hmac based algorithm used same secret key for sign and verify the token
+   
+   WHAT THE PROBLEM:
+   
+   IF application used RSA And Also HMAC Supported that the porblem: why?
+   
+   
+   
    
 
 ```
