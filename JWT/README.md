@@ -132,3 +132,4 @@ The issue here is very simple. The integrity of the token relies on the strength
  USAGES : hashcat  -a 3 -m 16500 -o abc.txt   target.txt  dict.txt
  
 ```
+![Hashcat ](https://github.com/effortlessdevsec/Web-Application-Hacks/blob/master/Images/hashcaht.png)
