@@ -1,4 +1,3 @@
-## JWT HACK
 
 * [What is JWT](#JWT)
 
@@ -60,3 +59,7 @@ Multiple signature methods can be used to ensure the integrity of JWT:
 ```
 ##
 ![JWT ](https://github.com/effortlessdevsec/Web-Application-Hacks/blob/master/Images/jwt.png)
+
+### None
+```
+```
