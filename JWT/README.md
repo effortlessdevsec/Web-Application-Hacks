@@ -2,6 +2,10 @@
 
 * [What is JWT](#JWT)
 
+## .JWT Vulnerabilities
+
+* [Using None Algorithm](#None)
+
 
 
 ## JWT
@@ -46,6 +50,13 @@ For Example:
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiZWZmb3J0bGVzc2RldnNlYyJ9.q1gLIkSPBFAKPxe_Bj_Lhmwjsxjxuu0-mX-E9XgeYnA
              (Header)                      (Payload)                           signature
 
+
+Multiple signature methods can be used to ensure the integrity of JWT:
+
+      RSA based
+       Elliptic curves
+        HMAC
+         None
 ```
 ##
 ![JWT ](https://github.com/effortlessdevsec/Web-Application-Hacks/blob/master/Images/jwt.png)
