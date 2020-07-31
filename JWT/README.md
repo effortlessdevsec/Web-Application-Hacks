@@ -96,7 +96,13 @@ then  the token not required  signature any more:
    
    IF application used RSA And Also HMAC Supported that the porblem: why?
    
-   
+   When application uses RSA. You can even download the public key if you want to be able to verify the token. Since you don't have the private key, 
+   you cannot generate a valid token (in theory). In a real scenario, you may get to get the public key from a JavaScript script or from a mobile application.
+
+  ~ you can change the algorithm used by the application (RSA - RS256) to tell it to use HMAC (HS256).
+  ~ The application will call the method verify when you send the cookie. Since the code is written to use RSA, it will call verify(public_key, data).
+  ~ But since the algorithm is set to HMAC, it will end up calling HMAC(public_key,data).
+  ~The application will verify the signature with the public key but since you are forcing the application to use HMAC, it will actually verify the signature with         HMAC(public_key, data).
    
    
 
