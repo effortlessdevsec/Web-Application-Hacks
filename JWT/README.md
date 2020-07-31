@@ -70,7 +70,7 @@ no any signature required .
 Nowdays None algorithm is disbaled  by default , developer use none algorithm for debugging purpose, if developer forget to disable None algorithm .
 then  the token not required  signature any more:
 
------------------------------------------------------------STEPS TO CHECK --------------------------------------------------------------------------
+-----------------------------------------------------------Hack Steps --------------------------------------------------------------------------
 
                             1. Decode the JWT 
                             2.Change the Algorithm to None
@@ -102,7 +102,10 @@ then  the token not required  signature any more:
   ~ you can change the algorithm used by the application (RSA - RS256) to tell it to use HMAC (HS256).
   ~ The application will call the method verify when you send the cookie. Since the code is written to use RSA, it will call verify(public_key, data).
   ~ But since the algorithm is set to HMAC, it will end up calling HMAC(public_key,data).
-  ~The application will verify the signature with the public key but since you are forcing the application to use HMAC, it will actually verify the signature with         HMAC(public_key, data).
+  ~The application will verify the signature with the public key but since you are forcing the application to use HMAC, it will actually verify the signature with    HMAC(public_key, data).
+  
+  -----------------------------------------------------------Hack Steps --------------------------------------------------------------------------
+
    
    
 
