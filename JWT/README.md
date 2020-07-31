@@ -5,6 +5,8 @@
 
 * [Using None Algorithm](#None)
 * [HMAC Algorithm Attack](#HMAC-V)
+* [Weak Secret Key](#Secret-w)
+
 
 
 
@@ -110,8 +112,6 @@ then  the token not required  signature any more:
                      3. compute the new signature with public key
                      4. verify the token
                      
-
-   
-   
-
 ```
+
+### Secret-w
