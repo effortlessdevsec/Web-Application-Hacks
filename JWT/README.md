@@ -68,7 +68,13 @@ no any signature required .
 Nowdays None algorithm is disbaled  by default , developer use none algorithm for debugging purpose, if developer forget to disable None algorithm .
 then  the token not required  signature any more:
 
----------------------------------------------STEPS TO CHECK ---------------------------------------------------------------------
+-----------------------------------------------------------STEPS TO CHECK --------------------------------------------------------------------------
+1. Decode the JWT 
+2.Change the Algorithm to None
+3.Remove the signature 
+4.do   Base64(Header).base64(Payload).
+5. example : eyJhbGciOiJOb25lIiwidHlwIjoiSldTIn0.eyJsb2dpbiI6ImFtaXQiLCJpYXQiOiIxNTk2MTc3MDkzIn0.
+6. If token worked properly . :_None algorithm supported , now proceed with furhter attacks.
 
 ```
 
