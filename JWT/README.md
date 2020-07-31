@@ -4,6 +4,8 @@
 ## .JWT Vulnerabilities
 
 * [Using None Algorithm](#None)
+* [HMAC Algorithm Attack](#HMAC-V)
+
 
 
 
@@ -78,4 +80,6 @@ then  the token not required  signature any more:
                             6. If token worked properly . :_None algorithm supported , now proceed with furhter attacks.
 
 ```
+
+### HMAC-V
 
