@@ -7,7 +7,9 @@
 * [Weak Secret Key](#Secret-w)
 * [Directory Traversal in Kid](#kid-1)
 * [Sql Inejection in Kid](#kid-2)
-* [JWKS Spofinf](#JWK-1)
+* [JWKS Spofing](#JWK-1)
+
+* [TOOLS](#Tools)
 
 
 
