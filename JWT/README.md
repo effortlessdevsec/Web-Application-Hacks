@@ -9,8 +9,7 @@
 * [Directory Traversal in Kid](#kid-1)
 * [Sql Injection in Kid](#kid-2)
 * [JWKS Spofing](#JWK-1)
-
-* [TOOLS And Refernces](#T&R)
+* [TOOLS And Refernces](#Tools&Refernces)
 
 
 
@@ -147,7 +146,7 @@ Sometimes application does not verify the signature ,so whatever signature is no
 ```
 
 
-### T&R
+### Tools&Refernces
 
 ```
 https://jwt.io/
