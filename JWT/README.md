@@ -5,7 +5,7 @@
 * [Using None Algorithm](#None)
 * [HMAC Algorithm Attack](#HMAC-V)
 * [Weak Secret Key](#Secret-w)
-* [Lack Of Verification](#Verify)
+* [Lack Of Verification](#No-Verify)
 * [Directory Traversal in Kid](#kid-1)
 * [Sql Injection in Kid](#kid-2)
 * [JWKS Spofing](#JWK-1)
@@ -133,3 +133,15 @@ The issue here is very simple. The integrity of the token relies on the strength
  
 ```
 ![Hashcat ](https://github.com/effortlessdevsec/Web-Application-Hacks/blob/master/Images/hashcaht.png)
+
+### No-Verify
+```
+Sometimes application does not verify the signature ,so whatever signature is not matter..
+
+  -----------------------------------------------------------Hack Steps --------------------------------------------------------------------------
+                    1. Decode The Jwt
+                    2. Modify The Jwt.
+                    3. Leave the signature as it is.
+                    4. Verify the token
+
+```
