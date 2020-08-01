@@ -10,7 +10,7 @@
 * [Sql Injection in Kid](#kid-2)
 * [JWKS Spofing](#JWK-1)
 
-* [TOOLS](#Tools)
+* [TOOLS And Refernces](#T&R)
 
 
 
@@ -144,4 +144,13 @@ Sometimes application does not verify the signature ,so whatever signature is no
                     3. Leave the signature as it is.
                     4. Verify the token
 
+```
+
+
+### T&R
+
+```
+https://jwt.io/
+https://github.com/ticarpi/jwt_tool
+BURP EXTENSION : JOSEPH
 ```
