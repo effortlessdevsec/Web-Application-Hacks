@@ -168,6 +168,7 @@ developer kid use as a file path.
 ### JWK-1
 
 ```
+JWT allows users to link to a public key (using the jku header) inside the header of the token. 
 
 ```
 
