@@ -150,7 +150,19 @@ Sometimes application does not verify the signature ,so whatever signature is no
 This Vulnerability comes from one of the fields in the header: kid.
 
 kid is an optional header claim which holds a key identifier, particularly useful when you have multiple keys to sign the tokens 
-and you need to look up the right one to verify the signature
+and you need to look up the right one to verify the signature,If  kid is used without proper escaping to retrieve the key.this vulnerability arises when
+developer kid use as a file path.
+
+  -----------------------------------------------------------Hack Steps --------------------------------------------------------------------------
+                        1. Decode the Jwt
+                        2. change the kid value with known pathname like for example 
+                                 {
+                                   "typ": "JWT",
+                                  "alg": "HS256",
+                                  "kid": "css/bootstrap.css"
+                                      }
+                         3. create signature with css/bootstrap.css content
+                         4. verify the token 
 
 ```
 
