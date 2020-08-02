@@ -147,6 +147,11 @@ Sometimes application does not verify the signature ,so whatever signature is no
 
 ### kid-1
 ```
+This Vulnerability comes from one of the fields in the header: kid.
+
+kid is an optional header claim which holds a key identifier, particularly useful when you have multiple keys to sign the tokens 
+and you need to look up the right one to verify the signature
+
 ```
 
 
