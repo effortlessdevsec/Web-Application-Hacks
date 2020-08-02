@@ -165,13 +165,18 @@ developer kid use as a file path.
                          4. verify the token 
 
 ```
+### JWK-1
 
+```
+
+```
 
 ### Tools-Refernces
 
 ```
 https://jwt.io/
 https://github.com/ticarpi/jwt_tool
+https://www.pingidentity.com/en/company/blog/posts/2019/jwt-security-nobody-talks-about.html
 BURP EXTENSION : JOSEPH
 
 ```
