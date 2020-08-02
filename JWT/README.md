@@ -169,6 +169,27 @@ developer kid use as a file path.
 
 ```
 JWT allows users to link to a public key (using the jku header) inside the header of the token. 
+JKU stands for JWK Set URL
+JKU links to a json web keys (JWK). when developer not verifying the jku url then an attacker can create a forged token and proceed further .
+
+An attacker can  generates a public-private key pair and creates a forged token using the generated private key and replace the “jku” parameter’s value 
+with the URI of this newly generated JWK Set JSON file (hosted on an HTTP server),
+
+  -----------------------------------------------------------Hack Steps --------------------------------------------------------------------------
+                      
+                    1. create  a public-private key pair:
+                        
+                        openssl genrsa -out keypair.pem 2048
+                        openssl rsa -in keypair.pem -pubout -out publickey.crt
+                        openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in keypair.pem -out pkcs8.key
+                        
+                     2. Extract n and e value from public key and put n and e value in jwks.json file and host the  file on a server 
+                     3 Set the jwks.json file url in jku header
+                     3.create a forged token using the public-private key pair
+                     4.Verify the token
+                        
+  
+                        
 
 ```
 
